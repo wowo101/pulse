@@ -1,5 +1,5 @@
 == Welcome to pulse
 
-pulse is a super simple (some may say stupid) feed -aggregator- viewer I built in a few minutes. It just takes a hardwired Yahoo Pipes URL, reads and analyzes the resulting RSS feed and displays it with some style. No configuration, no persistence, no caching.
+pulse is a super simple (some may say stupid) feed viewer I built in a few minutes. It just takes a hardwired Yahoo Pipes URL, reads and analyzes the resulting RSS feed and displays it with some style. No configuration, no persistence, no caching.
 
 Take it and do what you want with it, and if you add some intelligence to it, you're my hero.
