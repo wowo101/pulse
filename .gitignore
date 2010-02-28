@@ -1,0 +1,7 @@
+config/database.yml
+config/twitter.yml
+tmp/**/*
+log/*.log
+.rsync_cache
+tmp/restart.txt
+*.sqlite3

@@ -1,0 +1,19 @@
+%section#pulse.column.width2.first
+  %h1
+    betahaus pulse
+    = link_to(image_tag('rss_green.png'), @feed_url)
+
+  %ul
+    - @feed.each do |item|
+      %li.column.width2.first
+        .column.unitx3.first.item
+          %h5
+            = link_to(item.title, item.link)
+          %p= item.description
+        .column.unitx1
+          %p.source
+            %img(src="/images/#{item.source}_16.png")
+            - unless item.author.blank? 
+              = item.author[0, item.author.index('(') || item.author.length]
+          %date
+            = item.pubDate.to_formatted_s(:short)

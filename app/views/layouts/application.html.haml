@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title betahaus pulse
+    <!--[if IE]>
+    = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
+    <![endif]-->
+    = stylesheet_link_tag "baseline.compress", "baseline.mod", "application"
+  %body
+    %div#page
+      = yield
